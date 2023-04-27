@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>FashionDriven</title>
+  </head>
+  <body>
+
+    <div class="topo">
+      <img class="topo1" src="Logo.png">
+    </div>
+
+
+    <div class="lado-branco">
+       <p class="escrito"> Escolher o modelo </p>
+    
+
+      <div class="escolhermodelo">
+        <div class="blusa1" onclick="selecionarBlusa('.blusa1')">
+            <img src="tshirt.png">
+            <p class="escrito-baixo escondida">T-shirt</p>
+        </div>
+        <p class="escrito-baixo">T-shirt</p>
+        <div class="blusa2" onclick="selecionarBlusa('.blusa2')">
+            <img src="Camiseta.png">
+            <p class="escrito-baixo escondida">Camiseta</p>
+        </div>
+        <p class="escrito-baixo">Camiseta</p>
+        <div class="blusa3" onclick="selecionarBlusa('.blusa3')">
+            <img src="Mangalonga.png">
+            <p class="escrito-baixo escondida">Manga longa</p>
+        </div>
+        <p class="escrito-baixo">Manga longa</p>
+      </div>
+
+      <p class="escrito"> Escolha a gola </p>
+
+      <div class="escolhergola">
+        <div class="gola1" onclick="selecionarGolas('.gola1')">
+            <img src="GolaV.png">
+            <p class="escrito-baixo escondida">Gola V</p>
+        </div>
+        <p class="escrito-baixo">Gola V</p>
+        <div class="gola2" onclick="selecionarGolas('.gola2')">
+            <img src="GolaRedonda.png">
+            <p class="escrito-baixo escondida">Gola Redonda</p>
+        </div>
+        <p class="escrito-baixo">Gola Redonda</p>
+        <div class="gola3" onclick="selecionarGolas('.gola3')">
+            <img src="GolaPolo.png">
+            <p class="escrito-baixo escondida">Gola polo</p>
+        </div>
+        <p class="escrito-baixo">Gola polo</p>
+      </div>
+
+      <p class="escrito"> Escolha o tecido </p>
+
+      <div class="escolhertecido">
+        <div class="tecido1" onclick="selecionarTecidos('.tecido1')">
+            <img src="Seda.png">
+            <p class="escrito-baixo escondida">Seda</p>
+        </div>
+        <p class="escrito-baixo">Seda</p>
+        <div class="tecido2" onclick="selecionarTecidos('.tecido2')">
+            <img src="Algodão.png">
+            <p class="escrito-baixo escondida">Algodão</p>
+        </div>
+        <p class="escrito-baixo">Algodão</p>
+        <div class="tecido3" onclick="selecionarTecidos('.tecido3')">
+            <img src="Poliester.png">
+            <p class="escrito-baixo escondida">Poliéster</p>
+        </div>
+        <p class="escrito-baixo">Poliéster</p>
+      </div>
+
+    <p class="escrito1"> Imagem de referência</p>
+    <form>
+    <input class="input-text" id="myText" type="url" id="link" name="link" placeholder="Insira o link" onclick="pegarLink()" >
+    </form>
+
+    <button class="selecionar-pedido" onclick="adicionarNovaPostagem()">
+      <p class="confirmar-pedido2"> Confirmar pedido </p>
+    </button>
+  </div>
+
+    <div class="lado-azul">
+        <img class="ilustração" src="ilustração.png">
+    </div>
+
+    <div class="abaixo">
+
+      <p class="escrito1"> Ultimos pedidos</p>      
+      <div class="ultimos-pedidos">
+        <div class="pedido1">
+          <img class="foto-blusa" src="Blusa1.png">
+          <p class="criadores"><strong>Criador:</strong>Agata</p>
+        </div>
+       
+        <div class="pedido2">
+          <img class="foto-blusa" src="Blusa2.png">
+          <p class="criadores"><strong>Criador:</strong>Camila</p>
+        </div>
+       
+        <div class="pedido3">
+          <img class="foto-blusa" src="Blusa3.png">
+          <p class="criadores"><strong>Criador:</strong>Daniel</p>
+        </div>
+      </div>
+   </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+

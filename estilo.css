@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:wght@100;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.topo{
+    width: 1366px;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #404EED;
+}
+
+.topo1{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.lado-azul{
+    width: 670.49px;
+    height: 1084px;
+    left: 695.51px;
+    top: 88px;
+    margin-top: -1083px;
+    margin-left: 696px;
+    background: #404EED;
+}
+
+.lado-branco{
+    width: 700px;
+    height: 900px;
+    top: 88px;
+    margin-left: 0px;
+    background-color: #FCFCFC;
+    margin-top: -25px;
+}
+
+.escondida{
+    display: none;
+}
+
+.escrito{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.escolhermodelo, .escolhergola, .escolhertecido{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.gola3{
+    margin-left: -50px;
+}
+
+.escrito-baixo{
+    margin-top: 128px;
+    margin-left: -250px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #232323;
+}
+
+.blusa1, .blusa2, .blusa3{
+    width: 100px;
+    height: 100px;
+    left: 125.26px;
+    top: 156.9px;
+    border: 0.5px solid #C4C4C4;
+    background: #F2F2F2;
+    border-radius: 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.ilustração{
+    margin-top: 240px;
+    margin-left: 25px;
+}
+
+.escolher-gola{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.escolher-tecido{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+.gola1, .gola2, .gola3{
+    width: 100px;
+    height: 100px;
+    left: 125.26px;
+    top: 156.9px;
+    border: 0.5px solid #C4C4C4;
+    background: #F2F2F2;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.tecido1, .tecido2, .tecido3{
+    width: 100px;
+    height: 100px;
+    left: 125.26px;
+    top: 156.9px;
+    border: 0.5px solid #C4C4C4;
+    background: #F2F2F2;
+    border-radius: 100%;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.escrito1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.input-text{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+input{
+    width: 396.27px;
+    height: 40px;
+    left: 121.99px;
+    top: 729.92px;
+
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+
+
+.confirmar-pedido{
+    width: 400px;
+    height: 40px;
+    left: 123.73px;
+    top: 793.68px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.selecionado{
+    box-sizing: border-box;
+    border: 3px solid #404EED;
+    width: 126px;
+    height: 126px;
+    left: 125.26px;
+    top: 156.9px;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
+    background-color: #F2F2F2;
+}
+
+.confirmar-pedido2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FCFCFC;
+    padding-left: 40px;
+}
+
+.selecionar-pedido{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    left: 123.73px;
+    top: 793.68px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.selecionar-pedido2{
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    left: 123.73px;
+    top: 793.68px;
+    background-color: #404EED;
+    background: #404EED;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.abaixo{
+    width: 1366px;
+    height: 310px;
+    left: 0px;
+    top: 873px;
+    background: #F2F2F2;;
+}
+
+.ultimos-pedidos{
+   background-color: #F2F2F2;;
+   margin-left: 20px;
+   width: 1366px;
+    height: 310px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+
+
+}
+
+ .pedido1, .pedido2, .pedido3, .pedido4, .pedido5{
+    height: 236.46641540527344px;
+    width: 201.69358825683594px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+.criadores{
+    
+}
+
+.foto-blusa{
+    width: 180px;
+    height: 180px;
+    left: 347.73px;
+    top: 963px;
+}
